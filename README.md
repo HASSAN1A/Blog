@@ -1,75 +1,84 @@
-# MY-BLOG
-### 25.09.2020
-####  A Python Flask CRUD web application for sharing blog articles
+
+#  BLOG
+### 31.10.2020
+####  A Python Flask CRUD web application for sharing blogs.
 
 ![alt text](app.png)
 
-## Author
-[Dennis Kamunya](https://github.com/D-Kamunya)
+## Description
+This is a flask multi-user blog application where a user can post and delete blog articles,comment on articles an also get inspired by daily quotes.
 
-## Versioning
-my-blog V1.0
+
+#### Live link : https://pitchplatform.herokuapp.com/
+
 
 ## Description
-This is a flask multi-user blog application where a user can post and delete blog articles,comment on articles an also get inspired by daily quotes.The live link to the site is https://myy-blog.herokuapp.com/ 
 
+An application which shows pitches from various categories using the python web framework, Flask.
 
-## Technologies Used
-* Python 3.8
-* Flask 
-* PostgreSQL
-* SQLAlchemy
-* HTML  
-* CSS
-* JS
-* MDB 4
-    * Bootstrap 4
-    * Font Awesome 
-    * jQuery 3
-* Google Font API
-* Quotes Api
+## User Stories
+
+- A user I can view various pithes on the homepage of the application.
+- A user can select a pitch and see pitch details from the selected pitch in the application.
+- A user can search for a pitch on the homepage.
+- A user can see the image, description,author and the time a pitch was created.
+- A can click on an article and read the full pitch on the source website.
+
+## Behaviour Driven Development (BDD)
+
+| Behaviour                                                                                        |                                                                      Input                                                                       |                                                                                                 Output |
+| ------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------: | -----------------------------------------------------------------------------------------------------: |
+| Page loads, user arrives in the landing page, a list of all available pitch category is displayed. | The user can click on any particular list group item to be directed to a separate page containing pitch highlights pitched by the same publisher. | On clicking the "make a pitch" button, the user is redirected to the main login and signup to allow you make a pitch of ua choice. |  |
+
+## Features
+
+Here are the summary:
+
+- A landing page showing pitch categories.
+- Clickable pitches which direct the user to a page with pitch highlights from the particular pitch.
+
 
 ## Requirements
-* This program requires python3.+ (and pip) installed, a guide on how to install python on various platforms can be found [here](https://www.python.org/)
+
+- This program requires python3.+ (and pip) installed, a guide on how to install python on various platforms can be found [here](https://www.python.org/)
+
+##### Contribution
+
+To fix a bug or enhance an existing module, follow these steps:
+
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -am 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request
+
+### Bug / Feature Request
+
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/HASSAN1A/Blog/issues/new) by including your search query and the expected result.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/HASSAN1A/Blog). Please include sample queries and their corresponding results.
+
+## Built with
+
+1. [Python 3.8.2](https://www.python.org/doc/) : Programming language.
+2. [Flask; Python framework used.](https://flask.palletsprojects.com/en/1.1.x/):Framework used.
+3. [HTML](https://www.w3schools.com/html/) : Layout.
+4. [CSS](https://www.w3schools.com/css/) : Styling.
+5. [Bootstrap](https://mdbootstrap.com/) : For responsive websites.
+6. [posgreSQL](https://www.postgresql.org/) : Database language.
+7. [psycopg2](https://pypi.org/project/psycopg2/) : Database driver.
+8. [Javascript](https://www.w3schools.com/js/DEFAULT.asp) : often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.[7] JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
+9. [Google Font API](https://dillinger.io/fonts.google.com) : For prettier fonts Making the web more beautiful, fast, and open through great typography..
+10. [Quotes Api](http://quotes.stormconsultancy.co.uk/random.json) : For requesting
+11. [Font Awesome](fontawesome.com) : The world's most popular and easiest to use icon set just got an upgrade. More icons. More styles.
+12. [jQuery 3](https://jquery.com/) : For special effects.
 
 
-## Installation and Set-up
-Here is a run through of how to set up the application:
-* **Step 1** : Clone this repository using **`https://github.com/D-Kamunya/Blog.git`**, or downloading a ZIP file of the code.
-* **Step 2** : The repository, if downloaded as a .zip file will need to be extracted to your preferred location and opened
-* **Step 3** : Go to the project root directory and  create a virtual environment. Run the following commands respectively:
-    * **`python3.8 -m venv --without-pip virtual`**
-    * **`source virtual/bin/activate`**
-        * Note that you can exit the virtual environment by running the command **`deactivate`**
-* **Step 4** :  Download the latest version of pip in virtual our environment.   
-    * **`curl https://bootstrap.pypa.io/get-pip.py | python`**  
+## TEAM
 
-* **Step 5** : Download the all dependencies in the requirements.txt using **`pip install -r requirements.txt`**
-    * Create a file in your root directory called start.sh and store a generated SECRET key,MAIL_USERNAME AND MAIL_PASSWORD like so **`export SECRET_KEY="<your-key>"`**
-    **`export MAIL_USERNAME="<your-key>"`**
-    **`export MAIL_PASSWORD="<your-key>"`**
-    * On the same file write down the command **`python3 manage.py server`** 
-* **Step 6** : Go to config.py and set the SQLALCHEMY_DATABASE_URI to your own, you may use Postgres or any other SQL databse client.    
-* **Step 7** : On your terminal, run the following command, **`chmod a+x start.sh`**
-    * You can now launch the application locally by running the command **`./start.sh`** 
-    * Open your preferred browser and view the app by opening the link **http://127.0.0.1:5000/**.
+[Hassan Juma ](https://github.com/HASSAN1A)
 
-## Known Bugs
-* No known bugs
-Be sure to report more bugs by contacting me.
+## [License](https://github.com/HASSAN1A/Blog/blob/master/LICENSE.md)
 
-## Contribution
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-## Support and contact details
-If you run into any problems feel free to contact me @dennismuriithik@gmail.com
-
-#### License
-[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-Copyright (c) 2020 Dennis Kamunya
+[MIT](https://github.com/HASSAN1A/Blog/blob/master/LICENSE.md) © [Hassan Juma](https://github.com/HASSAN1A)
