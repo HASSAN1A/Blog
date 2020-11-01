@@ -7,7 +7,7 @@ from .. import db,photos
 from ..requests import get_quotes
 # Views
 @blog.route('/')
-@login_required
+
 def index():
 
     '''
