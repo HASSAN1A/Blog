@@ -6,7 +6,7 @@
 ![alt text](app.png)
 
 ## Description
-This is a flask multi-user blog application where a user can post and delete blog articles,comment on articles an also get inspired by daily quotes.
+This is a flask multi-user blog application where a user can sign up,log in post and delete blog articles,comment on articles and also get inspired by random prgramming quotes.
 
 
 #### Live link : https://hassanblog.herokuapp.com/
