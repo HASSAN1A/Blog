@@ -12,9 +12,9 @@ This is a flask multi-user blog application where a user can sign up,log in post
 #### Live link : https://hassanblog.herokuapp.com/
 
 
-## Description
 
-An application which shows pitches from various categories using the python web framework, Flask.
+
+
 
 ## User Stories
 
@@ -22,7 +22,7 @@ An application which shows pitches from various categories using the python web 
 - A user can select a pitch and see pitch details from the selected pitch in the application.
 - A user can search for a article on the homepage.
 - A user can see the image, description,author and the time a article was created.
-- A can click on an article and read the full pitch on the source website.
+- A user can click on an article and read the full areticle on the source website.
 
 ## Behaviour Driven Development (BDD)
 
