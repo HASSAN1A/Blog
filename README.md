@@ -9,7 +9,7 @@
 This is a flask multi-user blog application where a user can post and delete blog articles,comment on articles an also get inspired by daily quotes.
 
 
-#### Live link : https://pitchplatform.herokuapp.com/
+#### Live link : https://hassanblog.herokuapp.com/
 
 
 ## Description
@@ -18,24 +18,24 @@ An application which shows pitches from various categories using the python web 
 
 ## User Stories
 
-- A user I can view various pithes on the homepage of the application.
+- A user I can view various articles on the homepage of the application.
 - A user can select a pitch and see pitch details from the selected pitch in the application.
-- A user can search for a pitch on the homepage.
-- A user can see the image, description,author and the time a pitch was created.
+- A user can search for a article on the homepage.
+- A user can see the image, description,author and the time a article was created.
 - A can click on an article and read the full pitch on the source website.
 
 ## Behaviour Driven Development (BDD)
 
 | Behaviour                                                                                        |                                                                      Input                                                                       |                                                                                                 Output |
 | ------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------: | -----------------------------------------------------------------------------------------------------: |
-| Page loads, user arrives in the landing page, a list of all available pitch category is displayed. | The user can click on any particular list group item to be directed to a separate page containing pitch highlights pitched by the same publisher. | On clicking the "make a pitch" button, the user is redirected to the main login and signup to allow you make a pitch of ua choice. |  |
+| Page loads, user arrives in the landing page, a list of all available blog category is displayed. | The user can click on any particular list group item to be directed to a separate page containing pitch highlights pitched by the same publisher. | On clicking the "create an article" button, the user is redirected to the main login and signup to allow you create an article of your choice. |  |
 
 ## Features
 
 Here are the summary:
 
-- A landing page showing pitch categories.
-- Clickable pitches which direct the user to a page with pitch highlights from the particular pitch.
+- A landing page showing blog categories.
+- Clickable blogs which direct the user to a page with article highlights from the particular blog.
 
 
 ## Requirements
